@@ -81,7 +81,7 @@ my dayly notes
    
    ```All packages in all machines must be now in a UPDATED status```
    
-7. (b) If something has gone wrong ???
+7. (b) If something has gone wrong at point 7 (a) ???
 
 8.  So now we have finished the INSTALLESTION_STEPS and we can export
      our report.
