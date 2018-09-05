@@ -1,7 +1,7 @@
 # zibaldone
 my dayly notes
 
-# [2018-09-04] *first day trining*
+# [2018-09-04] *first day training*
 
 1. load the test report from svn with the command
 
