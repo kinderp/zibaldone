@@ -69,6 +69,18 @@ In more detail:
 * `export`: It will save all the installation results automatically to my report 
 * `edit`: Check the results are PASSED and all it's good.
 
+# Reproducing bugs
+
+After `first checking step` I should know quite a bit about my bugs.
+
+As stated in gold rules doc:
+
+> try to reproduce every bug and document this in the template. 
+> Documentation includes:
+>
+> 1. setup for test
+> 2. test actions and results before updating
+
 
 # [2018-09-04] *first day training*
 
