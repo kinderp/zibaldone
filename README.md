@@ -15,6 +15,10 @@ Go to https://maintenance.suse.de/overview/
 
 `ibs qam my`
 
+## Let's start to work on my update
+
+`mtui -r SUSE:Maintenance:ID:RR`
+
 ## First checkings
 
 0. Check the hosts I'm using for testing and their environments (products and architectures) and take note.
