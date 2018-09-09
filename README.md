@@ -1,6 +1,18 @@
 # zibaldone
 my dayly notes
 
+# Looking for a new update for me
+
+Go to https://maintenance.suse.de/overview/  || `ibs qam list`
+
+# Assign to myself an update
+
+`ibs qam assign SUSE:Maintenace:ID:RR`
+
+# Check if update is assigned now to myself
+
+`ibs qam my`
+
 # First checkings
 
 0. Check the hosts I'm using for testing and their environments (products and architectures) and take note.
@@ -27,6 +39,9 @@ In short for a specific bug I will be in these following situations:
 * Reproducer not Present
 
 * PTF provided
+
+
+# Installation steps
 
 
 
