@@ -11,7 +11,7 @@ Go to https://maintenance.suse.de/overview/
 
 `ibs qam assign SUSE:Maintenace:ID:RR`
 
-## Check if update is assigned now to myself
+## Check if the update is assigned to myself
 
 `ibs qam my`
 
