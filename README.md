@@ -117,9 +117,13 @@ Supposing test's state is AFTER now.
 3. If you don't remember the state of your test use `list_packages`
 4. Use `testsuite_list` to find testsuite for your test
 5. Run package's testsuite: `testsuite_run test_(name_of_package)_run`
-6. Take a coffee
-7. Take onother one :)
-8. 
+6. Wait and take a coffee
+7. Take another one :)
+8. Submit results: `testsuite_submit test_(name_of_package)_run` (we are in AFTER state!
+9. When submission has terminated take note of the results:
+   ```
+   
+   ```
 # [2018-09-04] *first day training*
 
 1. load the test report from svn with the command
