@@ -106,11 +106,16 @@ In short:
 5. `edit`the report using the BEFORE clause
 6. `commit` my reproducing bugs results.
 
-# Regression Testing
+# Regression Testing (testsuite are available)
 
+Testsuites must be run AFTER and BEFORE the update.
 Supposing test's state is AFTER now.
 
-0.
+0. Check testsuite is present for the package in testing: `run zypper se qa_test_(name_of_package)`
+1. Install testsuite: `run zypper -n in qa_test_(name_of_package)`
+2. Check the installation: `run zypper se qa_test_(name_of_package)`
+3. If you don't remember the state of your test use `list_packages`
+4. 
 # [2018-09-04] *first day training*
 
 1. load the test report from svn with the command
