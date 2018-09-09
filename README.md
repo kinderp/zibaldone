@@ -115,7 +115,11 @@ Supposing test's state is AFTER now.
 1. Install testsuite: `run zypper -n in qa_test_(name_of_package)`
 2. Check the installation: `run zypper se qa_test_(name_of_package)`
 3. If you don't remember the state of your test use `list_packages`
-4. 
+4. Use `testsuite_list` to find testsuite for your test
+5. Run package's testsuite: `testsuite_run test_(name_of_package)_run`
+6. Take a coffee
+7. Take onother one :)
+8. 
 # [2018-09-04] *first day training*
 
 1. load the test report from svn with the command
