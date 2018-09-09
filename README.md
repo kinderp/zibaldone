@@ -101,14 +101,16 @@ In short:
 0. Check how to document these different situations using Orestis' guide (paragraph Reproducing a bug)
 1. Reproduce a bug in just a single machine (I'm hypothesizing to be in AFTER state).
 2. `edit` my report as suggested at point 0 usign the AFTER clause
-3. `downgrade` 
+3. `downgrade -t the.machine.i_am_reproducing_bug` 
 4. Re-reproduce the bug in BEOFRE state
 5. `edit`the report using the BEFORE clause
 6. `commit` my reproducing bugs results.
 
 # Regression Testing
 
+Supposing test's state is AFTER now.
 
+0.
 # [2018-09-04] *first day training*
 
 1. load the test report from svn with the command
