@@ -81,6 +81,17 @@ As stated in gold rules doc:
 > 1. setup for test
 > 2. test actions and results before updating
 
+My bug can be in these 4 status:
+
+* Reproducer present and works
+
+* Reproducer Present but does not work
+
+* Reproducer not Present
+
+* PTF provided
+
+Check how to document in the template these different situations using Orestis' guide (paragraph Reproducing a bug) 
 
 # [2018-09-04] *first day training*
 
