@@ -61,12 +61,13 @@ In more detail:
 * `prepare`: It will install all the packages needed to perform my testing update in all the machines that mtui has connected to.
     * After `prepare` has terminated it is import to run `list_packages`.
     * `list_packages` shows the status of the packages for the actual testing update. The packages, in all the machines, must be in a `update_needed` or `not_installed` status.
-    * Take notes which packs are in `update_needed` and which on in `not_installed` status.
+    * Take notes which packs are in `update_needed` and which one in `not_installed` status.
 * `update`: It will apply the update.
-    * After update has terminated the packages that were in `update_needed` should pass in `updated`
-    * After update has terminated the packages that were in `not_installed` should remain in `not_installed`
-* `export`
-* `edit`
+    * After `update` has terminated the packages that were in `update_needed` should pass in `updated`
+    * After `update` has terminated the packages that were in `not_installed` should remain in `not_installed`
+    * It the two previous condition are not verified, I can usee `terms gnome` to open terminals in the machines and fix the issue.
+* `export`: It will save all the installation results automatically to my report 
+* `edit`:
 
 
 # [2018-09-04] *first day training*
