@@ -18,6 +18,17 @@ my dayly notes
 
 At this time I should have a good idea on how to reproduce bugs or know the problems because of they can't be reproduced
    
+In short for a specific bug I can be in these following situations:
+
+* Reproducer present and works
+
+* Reproducer Present but does not work
+
+* Reproducer not Present
+
+* PTF provided
+
+
 
 # [2018-09-04] *first day training*
 
