@@ -120,10 +120,18 @@ Supposing test's state is AFTER now.
 6. Wait and take a coffee
 7. Take another one :)
 8. Submit results: `testsuite_submit test_(name_of_package)_run` (we are in AFTER state!
-9. When submission has terminated take note of the results:
-   ```
-   
-   ```
+9. When submission has terminated take note of the output:
+```
+   AFTER
+  info: Submiting results of test_php53-run from s390vsw137.suse.de
+  info: Submiting results of test_php53-run from nero.qam.suse.de
+  info: Submiting results of test_php53-run from ceasar.qam.suse.de
+  info: submission for s390vsw137.suse.de (suse_sles-modules-11-SP4-s390x): http://qadb2.suse.de/qadb/submission.php?submission_id=1427455
+  info: submission for nero.qam.suse.de (suse_sles-modules-11-SP4-i586): http://qadb2.suse.de/qadb/submission.php?submission_id=1427459
+  info: submission for ceasar.qam.suse.de (suse_sles-modules-11-SP4-x86_64): http://qadb2.suse.de/qadb/submission.php?submission_id=1427467
+```
+
+
 # [2018-09-04] *first day training*
 
 1. load the test report from svn with the command
