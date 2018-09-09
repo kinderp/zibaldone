@@ -122,7 +122,7 @@ Supposing test's state is AFTER now.
 8. Submit results: `testsuite_submit test_(name_of_package)_run` (we are in AFTER state!
 9. When submission has terminated take note of the output:
 ```
-   AFTER
+  AFTER
   info: Submiting results of test_php53-run from s390vsw137.suse.de
   info: Submiting results of test_php53-run from nero.qam.suse.de
   info: Submiting results of test_php53-run from ceasar.qam.suse.de
@@ -130,6 +130,21 @@ Supposing test's state is AFTER now.
   info: submission for nero.qam.suse.de (suse_sles-modules-11-SP4-i586): http://qadb2.suse.de/qadb/submission.php?submission_id=1427459
   info: submission for ceasar.qam.suse.de (suse_sles-modules-11-SP4-x86_64): http://qadb2.suse.de/qadb/submission.php?submission_id=1427467
 ```
+10. `downgrande` (I'm going into BEFORE state)
+11: Re-run testsuite: `testsuite_run test_(name_of_package)_run`
+12. Submit BEFORE results `testsuite_submit test_(name_of_package)_run`
+13: Save the outputs for the BEFORE results as well
+```
+  BEFORE
+  info: Submiting results of test_php53-run from s390vsw137.suse.de
+  info: Submiting results of test_php53-run from nero.qam.suse.de
+  info: Submiting results of test_php53-run from ceasar.qam.suse.de
+  info: submission for s390vsw137.suse.de (suse_sles-modules-11-SP4-s390x): http://qadb2.suse.de/qadb/submission.php?submission_id=1427797
+  info: submission for nero.qam.suse.de (suse_sles-modules-11-SP4-i586): http://qadb2.suse.de/qadb/submission.php?submission_id=1427801
+  info: submission for ceasar.qam.suse.de (suse_sles-modules-11-SP4-x86_64): http://qadb2.suse.de/qadb/submission.php?submission_id=1427805
+
+```
+
 
 
 # [2018-09-04] *first day training*
