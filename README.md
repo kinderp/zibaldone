@@ -1,19 +1,21 @@
 # zibaldone
 my dayly notes
 
-# Looking for a new update for me
+## Looking for a new update for me
 
-Go to https://maintenance.suse.de/overview/  || `ibs qam list`
+Go to https://maintenance.suse.de/overview/  
 
-# Assign to myself an update
+`ibs qam list`
+
+## Assign to myself an update
 
 `ibs qam assign SUSE:Maintenace:ID:RR`
 
-# Check if update is assigned now to myself
+## Check if update is assigned now to myself
 
 `ibs qam my`
 
-# First checkings
+## First checkings
 
 0. Check the hosts I'm using for testing and their environments (products and architectures) and take note.
    * `list_hosts`
