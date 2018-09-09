@@ -18,7 +18,7 @@ my dayly notes
 
 At this time I should have a good idea on how to reproduce bugs or know the problems because of they can't be reproduced
    
-In short for a specific bug I can be in these following situations:
+In short for a specific bug I will be in these following situations:
 
 * Reproducer present and works
 
