@@ -1,6 +1,23 @@
 # zibaldone
 my dayly notes
 
+# First checkings
+
+0. Check the hosts I'm using for testing and their environments (products and architecture) and take note.
+   * `list_hosts`
+   * `list_products`
+   It is useful to know because some bugs in my update could not be reproduceble in some architectures. I can know that just only reading all comments in bug's bugzilla page (see point 2) 
+
+1. Check SMELT CHECKER field in update's template, it is important to know that because it could be a good reason to reject before testing. So if there is a smelt checker, I ahould comunicate as soon as possible to the `maintenance coordinator` so that he approves that they are not something to worry and I can start my update.
+
+2. Check the bug lists for the update.
+   * Read all comments in the bugzilla page because maybe PFT for some bugs has been provided, so it is not necessary to reproduce.
+   * Go to qam.suse.de and search for the package you are testing or the number of the bug, there I can see old reports and what other people did that could help me with the bug.
+   
+
+At this time I should have a good idea on how to reproduce bugs or know the problems because of they can't be reproduced
+   
+
 # [2018-09-04] *first day training*
 
 1. load the test report from svn with the command
