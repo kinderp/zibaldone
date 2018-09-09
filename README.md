@@ -3,13 +3,13 @@ my dayly notes
 
 # First checkings
 
-0. Check the hosts I'm using for testing and their environments (products and architecture) and take note.
+0. Check the hosts I'm using for testing and their environments (products and architectures) and take note.
    * `list_hosts`
    * `list_products`
    
    It is useful to know because some bugs in my update could not be reproduceble in some architectures. I can know that just only reading all comments in bug's bugzilla page (see point 2) 
 
-1. Check SMELT CHECKER field in update's template, it is important to know that because it could be a good reason to reject before testing. So if there is a smelt checker, I ahould comunicate as soon as possible to the `maintenance coordinator` so that he approves that they are not something to worry and I can start my update.
+1. Check SMELT CHECKER field in update's template, it is important to know that because it could be a good reason to reject before testing. So if there is a smelt checker, I should comunicate as soon as possible to the `maintenance coordinator` so that he approves that they are not something to worry and I can start my update.
 
 2. Check the bug lists for the update.
    * Read all comments in the bugzilla page because maybe PFT for some bugs has been provided, so it is not necessary to reproduce.
