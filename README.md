@@ -67,7 +67,7 @@ In more detail:
     * After `update` has terminated the packages that were in `not_installed` should remain in `not_installed`
     * It the two previous condition are not verified, I can usee `terms gnome` to open terminals in the machines and fix the issue.
 * `export`: It will save all the installation results automatically to my report 
-* `edit`:
+* `edit`: Check the results are PASSED and all it's good.
 
 
 # [2018-09-04] *first day training*
