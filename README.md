@@ -91,7 +91,9 @@ as previous suggested, bugs can be in these 4 status:
 
 * PTF provided
 
+
 All bugs must be reproduced BEFORE and AFTER the `update`.
+
 If the test is in a AFTER (update) state, I can pass to BEFORE (update) state using:
 
 `downgrade -t host.bla.bla`
