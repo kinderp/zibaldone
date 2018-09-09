@@ -133,7 +133,7 @@ Supposing test's state is AFTER now.
 ```
 
 10. `downgrande` (I'm going into BEFORE state)
-11: Re-run testsuite: `testsuite_run test_(name_of_package)_run`
+11. Re-run testsuite: `testsuite_run test_(name_of_package)_run`
 12. Submit BEFORE results `testsuite_submit test_(name_of_package)_run`
 13: Save the outputs for the BEFORE results as well
 
