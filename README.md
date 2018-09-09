@@ -94,9 +94,9 @@ as previous suggested, bugs can be in these 4 status:
 
 All bugs must be reproduced BEFORE and AFTER the `update`.
 
-If the test is in a AFTER (update) state, I can pass to BEFORE (update) state using:
+If the test is in a AFTER (update) state, I can pass to BEFORE (update) state using: `downgrade -t host.bla.bla`
 
-`downgrade -t host.bla.bla`
+In short:
 
 0. Check how to document these different situations using Orestis' guide (paragraph Reproducing a bug)
 1. Reproduce a bug in just a single machine (I'm hypothesizing to be in AFTER state).
@@ -104,7 +104,9 @@ If the test is in a AFTER (update) state, I can pass to BEFORE (update) state us
 3. `downgrade` 
 4. Re-reproduce the bug in BEOFRE state
 5. `edit`the report using the BEFORE clause
-6. `commit` my reproducing results.
+6. `commit` my reproducing bugs results.
+
+# Regression Testing
 
 
 # [2018-09-04] *first day training*
