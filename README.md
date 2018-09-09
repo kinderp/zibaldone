@@ -81,7 +81,7 @@ As stated in gold rules doc:
 > 1. setup for test
 > 2. test actions and results before updating
 
-My bug can be in these 4 status:
+as previous suggested, bugs can be in these 4 status:
 
 * Reproducer present and works
 
@@ -91,7 +91,19 @@ My bug can be in these 4 status:
 
 * PTF provided
 
-Check how to document in the template these different situations using Orestis' guide (paragraph Reproducing a bug) 
+All bugs must be reproduced BEFORE and AFTER the `update`.
+If the test is in a AFTER (update) state, I can pass to BEFORE (update) state using:
+
+`downgrade -t host.bla.bla`
+
+0. Check how to document these different situations using Orestis' guide (paragraph Reproducing a bug)
+1. Reproduce a bug in just a single machine (I'm hypothesizing to be in AFTER state).
+2. `edit` my report as suggested at point 0 usign the AFTER clause
+3. `downgrade` 
+4. Re-reproduce the bug in BEOFRE state
+5. `edit`the report using the BEFORE clause
+6. `commit` my reproducing results.
+
 
 # [2018-09-04] *first day training*
 
