@@ -47,8 +47,19 @@ In short for a specific bug I will be in these following situations:
 * PTF provided
 
 
-# Installation steps
+# Installation tests
 
+Installation tests consist of 4 steps.
+
+* Prepare: It will install all the packages needed to perform my testing update in all the machines that mtui has connected to.
+    * After prepare has terminated it is import to run `list_packages`.
+    * `list_packages` shows the status of the packages for the actual testing update. The packages, in all the machines, must be in a `update_needed` or `not_installed` status.
+    * Take notes which packs are in `update_needed` and which on in `not_installed` status.
+* Update: It will apply the update.
+    * After update has terminated the packages that were in `update_needed` should pass in `updated`
+    * After update has terminated the packages that were in `not_installed` should remain in `not_installed`
+* Export
+* Edit
 
 
 # [2018-09-04] *first day training*
