@@ -148,7 +148,20 @@ Supposing test's state is AFTER now.
 
 ```
 
+# [2018-09-11] X crached
 
+https://it.opensuse.org/SDB:Configurazione_schede_video
+
+```
+➜  ~ cat /etc/SUSE-brand 
+openSUSE
+VERSION = 15.0
+➜  ~ /sbin/lspci -nnk | grep VGA -A2
+00:02.0 VGA compatible controller [0300]: Intel Corporation Device [8086:5926] (rev 06)
+	Subsystem: Dell Device [1028:075b]
+	Kernel driver in use: i915
+➜  ~ 
+```
 
 # [2018-09-04] *first day training*
 
