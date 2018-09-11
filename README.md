@@ -148,9 +148,11 @@ Supposing test's state is AFTER now.
 
 ```
 
-# [2018-09-11] X crached
+# [2018-09-11] X crashed
 
-https://it.opensuse.org/SDB:Configurazione_schede_video
+1. https://it.opensuse.org/SDB:Configurazione_schede_video
+
+2. https://forums.opensuse.org/showthread.php/438705-opensuse-graphic-card-practical-theory-guide-users
 
 ```
 ➜  ~ cat /etc/SUSE-brand 
