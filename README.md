@@ -148,6 +148,8 @@ Supposing test's state is AFTER now.
 
 ```
 
+# [2018-09-21] Refhost (SLEs15)
+
 # [2018-09-11] X crashed
 
 1. https://it.opensuse.org/SDB:Configurazione_schede_video
