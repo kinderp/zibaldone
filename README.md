@@ -158,6 +158,41 @@ Supposing test's state is AFTER now.
 
 ## NEW_VERSION_OR_NEW_PACKAGE
 
+Check something like this in sources.diff
+
+```
+old:
+----
+  autoyast2-4.0.55.tar.bz2
+
+new:
+----
+  autoyast2-4.0.61.tar.bz2
+```
+
+or use `rpm -qa <your_pack>` before and after update
+
+Exmple of a new version:
+
+```
+BEFORE: nodejs6-6.12.2-11.8.1
+AFTER:  nodejs6-6.14.1-11.12.1
+```
+Example of not a new version:
+
+```
+BEFORE: python3-base-3.4.6-24.1
+AFTER:  python3-base-3.4.6-25.7.1
+```
+
+If I have a new version, i can set:
+
+`NEW_VERSION_OR_NEW_PACKAGE: YES`
+
+otherwise
+
+`NEW_VERSION_OR_NEW_PACKAGE: NO`
+
 ## ALL_TRACKED_ISSUES_DOCUMENTED
 
 ## HAS_UNTRACKED_CHANGES
