@@ -161,16 +161,18 @@ A lot of info to understand sources.diff
 ```
 changes files:
 --------------
---- icewm.changes
-+++ icewm.changes
+--- icewm.changes	<--- original file 
++++ icewm.changes	<--- new file
 ```
 __________________________________________________
 
 Following this are one or more change hunks that contain the line differences in the file. 
-The unchanged, contextual lines are preceded by a space character, addition lines are preceded by a plus sign, and deletion lines are preceded by a minus sign.
+* The unchanged, contextual lines are preceded by a space character
+* addition lines are preceded by a plus sign
+* deletion lines are preceded by a minus sign.
 
 ```
-@@ -1,0 +2,6 @@
+@@ -1,0 +2,6 @@	<--- chunk range information
 +Fri Sep  7 06:51:23 UTC 2018 - qzheng@suse.com
 +
 +- Delete icewm.desktop and rename icewm-session.desktop to
@@ -193,8 +195,8 @@ The format of the range information line is as follows:
 @@ -l,s +l,s @@ optional section heading
 ```
 
-* The range for the hunk of the original file is preceded by a minus symbol
-* The range for the new file is preceded by a plus symbol. 
+* The range for the hunk of the *original* file is preceded by a *minus symbol*
+* The range for the *new* file is preceded by a *plus symbol*. 
 * Each hunk range is of the format l,s:
 	* l is the starting line number 
 	* s is the number of lines the change hunk applies to for each respective file. 
