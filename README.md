@@ -185,7 +185,7 @@ BEFORE: python3-base-3.4.6-24.1
 AFTER:  python3-base-3.4.6-25.7.1
 ```
 
-In practice: if the numbers before the dash change I have a nee version.
+In practice: if the numbers before the dash change I have a new version.
 
 If I have a new version, in my report i can set:
 
