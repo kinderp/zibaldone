@@ -424,6 +424,25 @@ other changes:
 +</patchinfo>
 
 ```
+# Documentation
+
+1. Set the summary to **PASSED** or **FAILED**.
+2. If the Summary is **FAILED**, document why it failed on the **comment: (none)** field.
+3. Rearrange and add new bugs (if any ) on the **BUGS SUMMARY** section.
+4. Go to the **Suggested Test Plan Reviewer** and delete the word Suggested.
+5. **Remove every Example** on all sections of the report.
+6. Write a summary of the installation tests on the **INSTALL TESTS SUMMARY** section. 
+```
+INSTALL TESTS SUMMARY
+
+PASSED on all architectures
+```
+7. Write a summary of the regression tests on the REGRESSION TEST SUMMARY section.
+8. save: ':wq'
+9. `commit`
+10. Keep the link of the report and send this link to the corresponding Test Plan Reviewer
+11. Go on IRC and find the corresponding Test Plan Reviewer. Ask him to final check your report before submitting it
+12. In case there was no Suggested Test Plan Reviewer provided, check the symbol next to the ID on SUSE Maintenance. If the symbol is a bug you have to ask on the #maintenance IRC channel for someone to review it,else,if it is a shield, ask on the #security IRC for a review.If you see the indication noreview you can skip the Test Plan Review12. 
 
 # [2018-09-21] Refhost (SLEs15)
 
