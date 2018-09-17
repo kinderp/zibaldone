@@ -154,8 +154,8 @@ Supposing test's state is AFTER now.
 
 A lot of info to understand sources.diff
 
-* the original file is preceded by "---" 
-* the new file is preceded by "+++". 
+* the **original** file is preceded by "---" 
+* the **new** file is preceded by "+++". 
 
 
 ```
@@ -166,12 +166,12 @@ changes files:
 ```
 __________________________________________________
 
-Following this are one or more change hunks that contain the line differences in the file. 
-* The unchanged, contextual lines are preceded by a space character
-* addition lines are preceded by a plus sign
-* deletion lines are preceded by a minus sign.
+Following this are one or more change **hunks** that contain the line differences in the file. 
+* The **unchanged**, contextual lines are preceded by **a space character**.
+* **addition** lines are preceded by a **plus sign**.
+* **deletion** lines are preceded by a **minus sign**.
 
-above an example of chunk:
+below an example of chunk:
 
 ```
 @@ -1,0 +2,6 @@	<--- chunk range information
@@ -183,9 +183,9 @@ above an example of chunk:
 +-------------------------------------------------------------------
 ```
 
-A hunk begins with range information and is immediately followed with the line additions, line deletions, and any number of the contextual lines. 
+A hunk begins with **range information** and is immediately followed with the **line additions**, **line deletions**, and any number of the contextual lines. 
 
-The range information is surrounded by double-at signs, and combines onto a single line what appears on two lines in the context format
+The **range information** is surrounded by **double-at signs**, and combines onto a single line what appears on two lines in the context format
 
 ```
 @@ -1,0 +2,6 @@
@@ -197,8 +197,8 @@ The format of the range information line is as follows:
 @@ -l,s +l,s @@ optional section heading
 ```
 
-* The range for the hunk of the *original* file is preceded by a *minus symbol*
-* The range for the *new* file is preceded by a *plus symbol*. 
+* The range for the hunk of the **original** file is preceded by a **minus symbol**
+* The range for the **new** file is preceded by a **plus symbol**. 
 * Each hunk range is of the format l,s:
 	* l is the starting line number 
 	* s is the number of lines the change hunk applies to for each respective file. 
