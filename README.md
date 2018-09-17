@@ -197,6 +197,16 @@ otherwise
 
 ## ALL_TRACKED_ISSUES_DOCUMENTED
 
+The expectation is to find a reference for those at the source.diff file.
+If all my bugs have a reference in source.diff, in my report i can set:
+
+ `ALL_TRACKED_ISSUES_DOCUMENTED: YES`
+ 
+ otherwise:
+ 
+ `ALL_TRACKED_ISSUES_DOCUMENTED: NO`
+ 
+ 
 ## HAS_UNTRACKED_CHANGES
 
 
