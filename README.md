@@ -206,6 +206,156 @@ The format of the range information line is as follows:
 * In many versions of GNU diff, each range can omit the comma and trailing value s, in which case s defaults to 1. Note that the only really interesting value is the l line number of the first range; all the other values can be computed from the diff.
 
 
+Below a complete example of a sources.diff file 
+
+```
+changes files:
+--------------
+--- icewm.changes
++++ icewm.changes
+@@ -1,0 +2,6 @@
++Fri Sep  7 06:51:23 UTC 2018 - qzheng@suse.com
++
++- Delete icewm.desktop and rename icewm-session.desktop to
++  icewm.desktop to fix the upgrade issue ( bsc#1096917 ).
++
++-------------------------------------------------------------------
+
+spec files:
+-----------
+--- icewm.spec
++++ icewm.spec
+@@ -225,6 +225,9 @@
+ 
+ %suse_update_desktop_file %{buildroot}%{_datadir}/xsessions/icewm-session.desktop
+ 
++mv -f %{buildroot}%{_datadir}/xsessions/icewm-session.desktop %{buildroot}%{_datadir}/xsessions/icewm.desktop
++ln -s icewm.desktop %{buildroot}%{_datadir}/xsessions/icewm-session.desktop
++
+ touch %{buildroot}%{_sysconfdir}/alternatives/default-xsession.desktop
+ ln -s %{_sysconfdir}/alternatives/default-xsession.desktop %{buildroot}%{_datadir}/xsessions/default.desktop
+ 
+
+other changes:
+--------------
+
+new:
+----
+  _patchinfo
+
+other changes:
+--------------
+
+++++++ _patchinfo (new)
+--- _patchinfo
++++ _patchinfo
+@@ -0,0 +1,11 @@
++<patchinfo incident="8643">
++  <issue tracker="bnc" id="1096917">[RPi3][Build7.1] polkit-gnome-authentication-agent-1 not starting in xdm/icewm - firewall-config Authorization failed, unable to reboot/shutdown</issue>
++  <category>recommended</category>
++  <rating>important</rating>
++  <packager>zhengqiang</packager>
++  <description>This update for icewm fixes the following issues:
++
++- Renamed icewm-session.desktop to icewm.desktop to fix a upgrade issue (bsc#1096917).
++</description>
++  <summary>Recommended update for icewm</summary>
++</patchinfo>
+
+new:
+----
+  _patchinfo
+
+other changes:
+--------------
+
+++++++ _patchinfo (new)
+--- _patchinfo
++++ _patchinfo
+@@ -0,0 +1,11 @@
++<patchinfo incident="8643">
++  <issue tracker="bnc" id="1096917">[RPi3][Build7.1] polkit-gnome-authentication-agent-1 not starting in xdm/icewm - firewall-config Authorization failed, unable to reboot/shutdown</issue>
++  <category>recommended</category>
++  <rating>important</rating>
++  <packager>zhengqiang</packager>
++  <description>This update for icewm fixes the following issues:
++
++- Renamed icewm-session.desktop to icewm.desktop to fix a upgrade issue (bsc#1096917).
++</description>
++  <summary>Recommended update for icewm</summary>
++</patchinfo>
+
+new:
+----
+  _patchinfo
+
+other changes:
+--------------
+
+++++++ _patchinfo (new)
+--- _patchinfo
++++ _patchinfo
+@@ -0,0 +1,11 @@
++<patchinfo incident="8643">
++  <issue tracker="bnc" id="1096917">[RPi3][Build7.1] polkit-gnome-authentication-agent-1 not starting in xdm/icewm - firewall-config Authorization failed, unable to reboot/shutdown</issue>
++  <category>recommended</category>
++  <rating>important</rating>
++  <packager>zhengqiang</packager>
++  <description>This update for icewm fixes the following issues:
++
++- Renamed icewm-session.desktop to icewm.desktop to fix a upgrade issue (bsc#1096917).
++</description>
++  <summary>Recommended update for icewm</summary>
++</patchinfo>
+
+new:
+----
+  _patchinfo
+
+other changes:
+--------------
+
+++++++ _patchinfo (new)
+--- _patchinfo
++++ _patchinfo
+@@ -0,0 +1,11 @@
++<patchinfo incident="8643">
++  <issue tracker="bnc" id="1096917">[RPi3][Build7.1] polkit-gnome-authentication-agent-1 not starting in xdm/icewm - firewall-config Authorization failed, unable to reboot/shutdown</issue>
++  <category>recommended</category>
++  <rating>important</rating>
++  <packager>zhengqiang</packager>
++  <description>This update for icewm fixes the following issues:
++
++- Renamed icewm-session.desktop to icewm.desktop to fix a upgrade issue (bsc#1096917).
++</description>
++  <summary>Recommended update for icewm</summary>
++</patchinfo>
+
+new:
+----
+  _patchinfo
+
+other changes:
+--------------
+
+++++++ _patchinfo (new)
+--- _patchinfo
++++ _patchinfo
+@@ -0,0 +1,11 @@
++<patchinfo incident="8643">
++  <issue tracker="bnc" id="1096917">[RPi3][Build7.1] polkit-gnome-authentication-agent-1 not starting in xdm/icewm - firewall-config Authorization failed, unable to reboot/shutdown</issue>
++  <category>recommended</category>
++  <rating>important</rating>
++  <packager>zhengqiang</packager>
++  <description>This update for icewm fixes the following issues:
++
++- Renamed icewm-session.desktop to icewm.desktop to fix a upgrade issue (bsc#1096917).
++</description>
++  <summary>Recommended update for icewm</summary>
++</patchinfo>
+
+```
+
 # [2018-09-21] Refhost (SLEs15)
 
 # [2018-09-21] Localization 
