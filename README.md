@@ -437,7 +437,12 @@ INSTALL TESTS SUMMARY
 
 PASSED on all architectures
 ```
-7. Write a summary of the regression tests on the REGRESSION TEST SUMMARY section.
+7. Write a summary of the regression tests on the **REGRESSION TEST SUMMARY** section.
+```
+REGRESSION TEST SUMMARY:
+
+Run python3 testsuite on all hosts. No regression.
+```
 8. save: ':wq'
 9. `commit`
 10. Keep the link of the report and send this link to the corresponding Test Plan Reviewer
