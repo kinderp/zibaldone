@@ -183,6 +183,8 @@ below an example of chunk:
 +-------------------------------------------------------------------
 ```
 
+__________________________________________________
+
 A hunk begins with **range information** and is immediately followed with the **line additions**, **line deletions**, and any number of the contextual lines. 
 
 The **range information** is surrounded by **double-at signs**, and combines onto a single line what appears on two lines in the context format
@@ -205,8 +207,15 @@ The format of the range information line is as follows:
 	
 * In many versions of GNU diff, each range can omit the comma and trailing value s, in which case s defaults to 1. Note that the only really interesting value is the l line number of the first range; all the other values can be computed from the diff.
 
+____________________________________________________
 
 Below a complete example of a sources.diff file 
+
+there are 3 changed files
+
+1. icewm.changes
+2. icewm.spec
+3. _patchinfo
 
 ```
 changes files:
