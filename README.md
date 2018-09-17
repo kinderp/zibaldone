@@ -171,6 +171,8 @@ Following this are one or more change hunks that contain the line differences in
 * addition lines are preceded by a plus sign
 * deletion lines are preceded by a minus sign.
 
+above an example of chunk:
+
 ```
 @@ -1,0 +2,6 @@	<--- chunk range information
 +Fri Sep  7 06:51:23 UTC 2018 - qzheng@suse.com
