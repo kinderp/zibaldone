@@ -445,9 +445,9 @@ Run python3 testsuite on all hosts. No regression.
 ```
 8. save: ':wq'
 9. `commit`
-10. Keep the link of the report and send this link to the corresponding Test Plan Reviewer
-11. Go on IRC and find the corresponding Test Plan Reviewer. Ask him to final check your report before submitting it
-12. In case there was no Suggested Test Plan Reviewer provided, check the symbol next to the ID on SUSE Maintenance. If the symbol is a bug you have to ask on the #maintenance IRC channel for someone to review it,else,if it is a shield, ask on the #security IRC for a review.If you see the indication noreview you can skip the Test Plan Review12. 
+10. Keep the link of the report and send this link to the corresponding **Test Plan Reviewer**
+11. Go on IRC and find the corresponding Test Plan Reviewer. Ask him to **final check** your report before submitting it
+12. In case there was **no Suggested Test Plan Reviewer provided**, check the symbol next to the ID on SUSE Maintenance. If the symbol is a bug you have to ask on the #maintenance IRC channel for someone to review it,else,if it is a shield, ask on the #security IRC for a review.If you see the indication noreview you can skip the Test Plan Review12. 
 
 # [2018-09-21] Refhost (SLEs15)
 
