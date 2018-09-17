@@ -150,6 +150,19 @@ Supposing test's state is AFTER now.
 
 # Source code change review
 
+3 things to investigate
+
+1. `NEW_VERSION_OR_NEW_PACKAGE`
+2. `ALL_TRACKED_ISSUES_DOCUMENTED`
+3. `HAS_UNTRACKED_CHANGES`
+
+## NEW_VERSION_OR_NEW_PACKAGE
+
+## ALL_TRACKED_ISSUES_DOCUMENTED
+
+## HAS_UNTRACKED_CHANGES
+
+
 # sources.diff
 
 A lot of info to understand sources.diff
