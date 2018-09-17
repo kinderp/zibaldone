@@ -215,7 +215,7 @@ there are 3 changed files
 
 1. icewm.changes
 2. icewm.spec
-3. _patchinfo
+3. _patchinfo (a new file)
 
 ```
 changes files:
